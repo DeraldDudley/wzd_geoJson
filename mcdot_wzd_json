@@ -3,6 +3,7 @@
 		"Header": {
 			"timeStampUpdate": "2019-08-26T09:42:12.1286771-07:00",
 			"metadataURL": "mcdot-its.com/WZDx",
+			"source_url": "https://api.mcdot-its.com/WZDx/Activity/Get"
 			"versionNo": "1"
 		},
 		"WorkZoneActivity": [{
