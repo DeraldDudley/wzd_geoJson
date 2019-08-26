@@ -13,16 +13,6 @@
                "type": "Point",
                "coordinates": [-112.259716, 33.435795]
            }
-       },
-    {"type": "Feature",
-           "properties": {
-            "feature_type": "end_location",
-            "crossStreet": "75th Ave"
-           },
-           "geometry": {
-               "type": "Point",
-               "coordinates": [-112.224501, 33.437151,]
-           }
        }       
   ]
 }
