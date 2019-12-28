@@ -1,6 +1,8 @@
 # WZD GeoJSON Needs
 ## Validation Tools
-   1. Validate GeoJSON Formatting: [geojsonlint.com](http://geojsonlint.com/)
+   1. Validate GeoJSON Formatting
+      1. [geojsonlint.com](http://geojsonlint.com/)
+      1. [geojsonhint](https://github.com/mapbox/geojsonhint)
    1. Validate WZD V 2.0 Content
       1. Publish authoritative WZD Specification (V 2.0) schema and enumeration files which can be used to validate content.
          1. Schemas
