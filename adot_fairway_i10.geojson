@@ -1,0 +1,1877 @@
+{ "road_event_feed_info": {
+    "feed_update_date": "2020-05-12T01:01:01Z",
+    "metadata": "https://fake-site.tld/dummy-metadata.txt",
+    "version": "2"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "1",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 18",
+        "road_name": "Papago Freeway",
+        "road_number": "I-10",
+        "direction": "westbound",
+        "beginning_cross_street": "99th Ave",
+        "ending_cross_street": "Fairway Road",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 5,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Construction crews continue to make progress on the new traffic interchange on Interstate 10 (Papago Freeway) and Fairway Drive in the West Valley. Crews are scheduled to set girders for the new bridge on I-10 at Fairway Drive beginning at 9 p.m. Friday, Feb. 28 through 1 p.m. Sunday, March 1, 2020. ",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 5,
+            "lane_edge_reference": "left",
+            "lane_number": 5,
+            "lane_status": "shift-right",
+            "lane_type": "right-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.28327751159668,
+            33.46157426815808
+          ],
+          [
+            -112.29226291179657,
+            33.46146238566532
+          ],
+          [
+            -112.29394733905791,
+            33.461435533845545
+          ],
+          [
+            -112.29479491710663,
+            33.461395256100325
+          ],
+          [
+            -112.2951865196228,
+            33.461381830181104
+          ],
+          [
+            -112.29550838470459,
+            33.461368404259794
+          ],
+          [
+            -112.29625403881073,
+            33.461283373376524
+          ],
+          [
+            -112.29696750640868,
+            33.461202817725976
+          ],
+          [
+            -112.29775071144104,
+            33.461095410075465
+          ],
+          [
+            -112.29910790920258,
+            33.46085374237525
+          ],
+          [
+            -112.29994475841522,
+            33.460692630200874
+          ],
+          [
+            -112.30481028556824,
+            33.45984231098694
+          ],
+          [
+            -112.30876386165619,
+            33.4591217708095
+          ],
+          [
+            -112.31200933456421,
+            33.4584952092658
+          ],
+          [
+            -112.31539964675902,
+            33.45799395677068
+          ],
+          [
+            -112.3176097869873,
+            33.45794025097434
+          ],
+          [
+            -112.32003450393677,
+            33.458011858695414
+          ],
+          [
+            -112.3220944404602,
+            33.45808346635736
+          ],
+          [
+            -112.32312440872192,
+            33.45811927016616
+          ],
+          [
+            -112.32501268386841,
+            33.458101368263605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "2",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 18",
+        "road_name": "North 107th Ave",
+        "direction": "northbound",
+        "ending_cross_street": "I-10 - Westbound - exit ramp",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 3,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Left turn lane closed. No access westbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "open",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "right-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.28984624147415,
+            33.460231668714755
+          ],
+          [
+            -112.28987038135529,
+            33.46033012671374
+          ],
+          [
+            -112.2898730635643,
+            33.46059641028722
+          ],
+          [
+            -112.28986233472824,
+            33.46072171992115
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "3",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 18",
+        "road_name": "North 107th Ave",
+        "direction": "northbound",
+        "ending_cross_street": "I-10 - Westbound - Off-Ramp",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 3,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Left turn lane closed. No access westbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "middle-lanes"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "closed",
+            "lane_type": "middle-lanes"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.2898569703102,
+            33.4609052087012
+          ],
+          [
+            -112.28986635804176,
+            33.46159664463931
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "4",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 18",
+        "road_name": "I10 exit ramp to North 107th Avenue",
+        "direction": "westbound",
+        "ending_cross_street": "North 107th Avenue",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 3,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Middle lane closed. No access westbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "open",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "right-turning-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.28882431983948,
+            33.461794676246456
+          ],
+          [
+            -112.28968799114227,
+            33.461781250389066
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "5",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 18",
+        "road_name": "Westbound I10 entrance ramp from North 107th Avenue",
+        "direction": "westbound",
+        "begining_cross_street": "North 107th Avenue",
+        "ending_cross_street": "I10",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 2,
+        "vehicle_impact": "all-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Entrance ramp from 107th Avenue to westbound I10 is closed. No access westbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": 
+          [
+            {
+              "type_name":"roadway-creation",
+              "is_architectual_change":true
+              
+            }
+          ],
+        "lanes": [
+            {
+            "lane_id":1,
+            "lane_edge_reference":"left",
+            "lane_number":1,
+            "lane_status":"closed",
+            "lane_type":"left-lane"
+            },
+            {
+            "lane_id":2,
+            "lane_edge_reference":"left",
+            "lane_number":2,
+            "lane_status":"closed",
+            "lane_type":"right-lane"
+            }
+          ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.29006350040436,
+            33.461793557425075
+          ],
+          [
+            -112.29204833507538,
+            33.461668249340434
+          ],
+          [
+            -112.29360938072205,
+            33.46156531756397
+          ],
+          [
+            -112.29436576366425,
+            33.46149371277786
+          ],
+          [
+            -112.29499340057372,
+            33.46145343505965
+          ],
+          [
+            -112.29517042636871,
+            33.461386305487736
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "6",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "Papago Freeway",
+        "road_number": "I-10",
+        "direction": "eastbound",
+        "beginning_cross_street": "Litchfield Rd",
+        "ending_cross_street": "Fairway Drive",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 5,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Construction crews continue to make progress on the new traffic interchange on Interstate 10 (Papago Freeway) and Fairway Drive in the West Valley. Crews are scheduled to set girders for the new bridge on I-10 at Fairway Drive beginning at 9 p.m. Friday, Feb. 28 through 1 p.m. Sunday, March 1, 2020. ",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 5,
+            "lane_edge_reference": "left",
+            "lane_number": 5,
+            "lane_status": "shift-right",
+            "lane_type": "right-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.36613631248474,
+            33.457886545144724
+          ],
+          [
+            -112.36476302146912,
+            33.45784179026127
+          ],
+          [
+            -112.36292839050293,
+            33.45784179026127
+          ],
+          [
+            -112.35963463783263,
+            33.45784179026127
+          ],
+          [
+            -112.3583471775055,
+            33.457797035354766
+          ],
+          [
+            -112.35714554786682,
+            33.457805986337895
+          ],
+          [
+            -112.35516071319579,
+            33.45778808437066
+          ],
+          [
+            -112.35200643539429,
+            33.457805986337895
+          ],
+          [
+            -112.34877705574034,
+            33.457805986337895
+          ],
+          [
+            -112.34158873558044,
+            33.457689623484825
+          ],
+          [
+            -112.33949661254883,
+            33.457689623484825
+          ],
+          [
+            -112.33501195907593,
+            33.45764486849974
+          ],
+          [
+            -112.33126759529114,
+            33.45762696649923
+          ],
+          [
+            -112.32774853706358,
+            33.45760011349156
+          ],
+          [
+            -112.326922416687,
+            33.457510603405886
+          ],
+          [
+            -112.32422947883606,
+            33.45730472985817
+          ],
+          [
+            -112.32309222221373,
+            33.45729577882326
+          ],
+          [
+            -112.3215901851654,
+            33.4573226319252
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "7",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "I10 exit ramp to Litchfield Road",
+        "direction": "eastbound",
+        "begining_cross_street": "Eastbound I10",
+        "ending_cross_street": "Litchfield Road",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 3,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Middle lane closed. No access eastbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "open",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "right-turning-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.35949784517288,
+            33.45738417025244
+          ],
+          [
+            -112.35842630267142,
+            33.4572890655465
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "8",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "Litchfield Road",
+        "direction": "southbound",
+        "ending_cross_street": "I-10 - Westbound - entrance ramp",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 6,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "2 Left turn lanes closed. No access eastbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 5,
+            "lane_edge_reference": "left",
+            "lane_number": 5,
+            "lane_status": "open",
+            "lane_type": "right-lane"
+          },
+          {
+            "lane_id": 6,
+            "lane_edge_reference": "left",
+            "lane_number": 6,
+            "lane_status": "open",
+            "lane_type": "right-turning-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.35819160938263,
+            33.45937239415911
+          ],
+          [
+            -112.35819160938263,
+            33.45871003087662
+          ]
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "9",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "Litchfield Road",
+        "direction": "southbound",
+        "begining_cross_street": "I-10 - Westbound - entrance ramp",
+        "ending_cross_street": "I-10 - Eastbound - entrance ramp",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 5,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "2 Left turn lanes closed. No access eastbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "right-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 5,
+            "lane_edge_reference": "left",
+            "lane_number": 5,
+            "lane_status": "open",
+            "lane_type": "left-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.3581862449646,
+            33.45845045469656
+          ],
+          [
+            -112.35819697380066,
+            33.45745242180067
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "10",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "Litchfield Road",
+        "direction": "northbound",
+        "ending_cross_street": "I-10 - Eastbound - entrance ramp",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 4,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Right turn lane closed. No access eastbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "open",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "right-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "closed",
+            "lane_type": "right-turning-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.35799312591553,
+            33.45723759707387
+          ],
+          [
+            -112.35804542899132,
+            33.455400376368324
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "11",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 18",
+        "road_name": "Avondale Blvd",
+        "direction": "northbound",
+        "ending_cross_street": "I-10 - Eastbound - entrance ramp",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 7,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Northbound Avondale Blvd, Left turn lane to westbound I10 is closed. No access westbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 5,
+            "lane_edge_reference": "left",
+            "lane_number": 5,
+            "lane_status": "open",
+            "lane_type": "right-lane"
+          },
+          {
+            "lane_id": 6,
+            "lane_edge_reference": "left",
+            "lane_number": 6,
+            "lane_status": "open",
+            "lane_type": "right-turn-lane"
+          },
+          {
+            "lane_id": 7,
+            "lane_edge_reference": "left",
+            "lane_number": 7,
+            "lane_status": "open",
+            "lane_type": "right-turn-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.30656579136848,
+            33.45797941145414
+          ],
+          [
+            -112.30655372142792,
+            33.458507516768314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "12",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 18",
+        "road_name": "Avondale Blvd",
+        "direction": "northbound",
+        "ending_cross_street": "I-10 - Westbound - exit ramp",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 5,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Northbound Avondale Blvd, Left turn lane to westbound is I10 closed. No access westbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 5,
+            "lane_edge_reference": "left",
+            "lane_number": 5,
+            "lane_status": "open",
+            "lane_type": "right-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.30655372142792,
+            33.458911425653305
+          ],
+          [
+            -112.30655372142792,
+            33.45979979480731
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "13",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 18",
+        "road_name": "Westbound I10 exit ramp to Avondale Blvd",
+        "direction": "westbound",
+        "ending_cross_street": "Avondale",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 4,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Middle lane closed. No access westbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "open",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "right-turning-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "open",
+            "lane_type": "right-turning-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.30463594198227,
+            33.460216004931866
+          ],
+          [
+            -112.30630159378052,
+            33.46006608000972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "14",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 18",
+        "road_name": "Westbound I10 entrance ramp from Avondale",
+        "direction": "westbound",
+        "begining_cross_street": "Avondale Blvd",
+        "ending_cross_street": "I10",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 2,
+        "vehicle_impact": "all-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Entrance ramp from Avondale Blvd to westbound I10 is closed. No access westbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+            {
+              "type_name":"roadway-creation",
+              "is_architectual_change":true
+            }
+          ],
+        "lanes": [
+            {
+            "lane_id":1,
+            "lane_edge_reference":"left",
+            "lane_number":1,
+            "lane_status":"closed",
+            "lane_type":"left-lane"
+            },
+            {
+            "lane_id":2,
+            "lane_edge_reference":"left",
+            "lane_number":2,
+            "lane_status":"closed",
+            "lane_type":"right-lane"
+            }
+          ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.30684608221054,
+            33.45998328553861
+          ],
+          [
+            -112.30873435735703,
+            33.45941714825246
+          ],
+          [
+            -112.31012642383575,
+            33.458996458863005
+          ],
+          [
+            -112.31119126081467,
+            33.45876373619612
+          ],
+          [
+            -112.31207638978957,
+            33.45858695606055
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "15",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "Entrance Ramp Eastbound I10",
+        "direction": "eastbound",
+        "beginning_cross_street": "Litchfield",
+        "ending_cross_street": "I10",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 2,
+        "vehicle_impact": "all-lanes-closed",
+        "workers_present": true,
+        "reduced_speed_limit": 45,
+        "description": "Entrance Ramp to Eastbound I10 from Litchfield Road is closed.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name":"roadway-creation",
+            "is_architectual_change":true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id":1,
+            "lane_edge_reference":"left",
+            "lane_number":1,
+            "lane_status":"closed",
+            "lane_type":"left-lane"
+          },
+          {
+            "lane_id":2,
+            "lane_edge_reference":"left",
+            "lane_number":2,
+            "lane_status":"closed",
+            "lane_type":"right-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.35795557498932,
+            33.45727340123197
+          ],
+          [
+            -112.35709726810454,
+            33.457412142204916
+          ],
+          [
+            -112.35564351081848,
+            33.457568784972096
+          ],
+          [
+            -112.35464036464691,
+            33.45762696649923
+          ],
+          [
+            -112.35362112522125,
+            33.45768067248965
+          ],
+          [
+            -112.35297203063965,
+            33.45768067248965
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "16",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "Dysart Road",
+        "direction": "northbound",
+        "ending_cross_street": "I-10 - Eastbound - entrance ramp",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 5,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Right turn lane closed. No access eastbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "open",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "open",
+            "lane_type": "right-lane"
+          },
+          {
+            "lane_id": 5,
+            "lane_edge_reference": "left",
+            "lane_number": 5,
+            "lane_status": "closed",
+            "lane_type": "right-turning-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.3408618569374,
+            33.45627311700195
+          ],
+          [
+            -112.3408618569374,
+            33.457134660037
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "17",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "Dysart Road",
+        "direction": "southbound",
+        "ending_cross_street": "I-10 - Westbound - entrance ramp",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 6,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "2 Left turn lanes closed. No access eastbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 5,
+            "lane_edge_reference": "left",
+            "lane_number": 5,
+            "lane_status": "open",
+            "lane_type": "right-lane"
+          },
+          {
+            "lane_id": 6,
+            "lane_edge_reference": "left",
+            "lane_number": 6,
+            "lane_status": "open",
+            "lane_type": "right-turning-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.3410576581955,
+            33.459408197435636
+          ],
+          [
+            -112.34106302261351,
+            33.45862947283493
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "18",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "Dysart Road",
+        "direction": "southbound",
+        "ending_cross_street": "I-10 - Eastbound - entrance ramp",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 5,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "2 Left turn lanes closed. No access eastbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id": 4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 5,
+            "lane_edge_reference": "left",
+            "lane_number": 5,
+            "lane_status": "open",
+            "lane_type": "right-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.34107911586761,
+            33.45833409270842
+          ],
+          [
+            -112.34110057353972,
+            33.457333820715235
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "19",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "I10 exit ramp to Dysart Road",
+        "direction": "eastbound",
+        "begining_cross_street": "Eastbound I10",
+        "ending_cross_street": "Dysart Road",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 3,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": "true",
+        "reduced_speed_limit": 45,
+        "description": "Middle lane closed. No access eastbound I-10.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name": "roadway-creation",
+            "is_architectual_change": true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id": 1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "open",
+            "lane_type": "left-turning-lane"
+          },
+          {
+            "lane_id": 2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id": 3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "right-turning-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.34216675162315,
+            33.45729913546146
+          ],
+          [
+            -112.34133929014206,
+            33.45720179290099
+          ]
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "20",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 19",
+        "road_name": "Entrance Ramp Eastbound I10",
+        "direction": "eastbound",
+        "beginning_cross_street": "Dysart",
+        "ending_cross_street": "I10",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 2,
+        "vehicle_impact": "all-lanes-closed",
+        "workers_present": true,
+        "reduced_speed_limit": 45,
+        "description": "Entrance Ramp to Eastbound I10 from Dysart Road is closed.",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name":"roadway-creation",
+            "is_architectual_change":true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id":1,
+            "lane_edge_reference":"left",
+            "lane_number":1,
+            "lane_status":"closed",
+            "lane_type":"left-lane"
+          },
+          {
+            "lane_id":2,
+            "lane_edge_reference":"left",
+            "lane_number":2,
+            "lane_status":"closed",
+            "lane_type":"right-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.3408618569374,
+            33.457160394307685
+          ],
+          [
+            -112.33981177210806,
+            33.457323750804285
+          ],
+          [
+            -112.3383754491806,
+            33.45746808608283
+          ],
+          [
+            -112.33695656061172,
+            33.45754864520359
+          ],
+          [
+            -112.33610898256302,
+            33.45757214159972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties":  {
+        "stroke": "#ff0000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "road_event_id": "21",
+        "feed_info_id": "ADOT01",
+        "subidentifier": "Fairway Drive and I10, Plan 31",
+        "road_name": "Papago Freeway",
+        "road_number": "I-10",
+        "direction": "westbound",
+        "beginning_cross_street": "Avondale Blvd",
+        "ending_cross_street": "Fairway Drive",
+        "beginning_accuracy": "estimated",
+        "ending_accuracy": "estimated",
+        "start_date": "2020-02-28T01:01:01Z",
+        "end_date": "2010-03-01T01:01:01Z",
+        "start_date_accuracy": "estimated",
+        "end_date_accuracy": "estimated",
+        "event_status": "pending",
+        "total_num_lanes": 5,
+        "vehicle_impact": "some-lanes-closed",
+        "workers_present": true,
+        "reduced_speed_limit": 55,
+        "description": "Westbound I10 from Avondale Blvd to Fairway Drive",
+        "issuing_organization": "Arizona DOT",
+        "creation_date": "2020-01-01T01:01:01Z",
+        "update_date": "2020-01-01T01:01:01Z",
+        "types_of_work": [
+          {
+            "type_name":"roadway-creation",
+            "is_architectual_change":true
+          }
+        ],
+        "lanes": [
+          {
+            "lane_id":1,
+            "lane_edge_reference": "left",
+            "lane_number": 1,
+            "lane_status": "closed",
+            "lane_type": "left-lane"
+          },
+          {
+            "lane_id":2,
+            "lane_edge_reference": "left",
+            "lane_number": 2,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id":3,
+            "lane_edge_reference": "left",
+            "lane_number": 3,
+            "lane_status": "open",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id":4,
+            "lane_edge_reference": "left",
+            "lane_number": 4,
+            "lane_status": "closed",
+            "lane_type": "middle-lane"
+          },
+          {
+            "lane_id":5,
+            "lane_edge_reference": "left",
+            "lane_number": 5,
+            "lane_status": "closed",
+            "lane_type": "right-lane"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.31209516525267,
+            33.4584952092658
+          ],
+          [
+            -112.31541037559509,
+            33.45795815291015
+          ],
+          [
+            -112.31814622879028,
+            33.45784179026127
+          ],
+          [
+            -112.32588171958923,
+            33.45787759416986
+          ]
+        ]
+      }
+    }
+  ]
+}
